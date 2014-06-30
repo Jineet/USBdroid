@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+   
+    android:orientation="vertical" >
+
+<LinearLayout
+   	    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         android:layout_marginLeft="100dp"
+         android:layout_marginRight="100dp" >    
+        <TextView
+           
+            android:id="@+id/RuseridtextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="rpassword_textview" 
+			android:layout_weight="1" />
+        <EditText
+            android:id="@+id/RuserideditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:inputType="textPassword"
+            android:text="password_edittext"
+            android:layout_weight="2"  />
+    </LinearLayout> 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp" >
+
+         <TextView
+	        android:id="@+id/RfirstnametextView"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="name_textview" 
+            android:layout_weight="1" />
+        <EditText
+	        android:id="@+id/RfirstnameeditText"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:inputType="textPersonName"
+	        android:text="name_textview"
+	        android:layout_weight="2" />
+        
+	</LinearLayout>
+	<LinearLayout
+   	    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         android:layout_marginLeft="100dp"
+         android:layout_marginRight="100dp" >    
+        <TextView
+           
+            android:id="@+id/RuseridtextView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="rpassword_textview" 
+			android:layout_weight="1" />
+        <EditText
+            android:id="@+id/RuserideditText1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:inputType="textPassword"
+            android:text="password_edittext"
+            android:layout_weight="2"  />
+    </LinearLayout> 
+    
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"  
+         android:layout_marginLeft="100dp"
+          android:layout_marginRight="100dp" >
+		 <TextView
+	        android:id="@+id/RlastnametextView"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="name_textview" 
+            android:layout_weight="1" />
+        <EditText
+	        android:id="@+id/RlastnameeditText"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:inputType="textPersonName"
+	        android:text="name_textview"
+	        android:layout_weight="2" />
+        </LinearLayout>
+	<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+         android:layout_marginLeft="100dp"
+          android:layout_marginRight="100dp">
+        
+         <TextView
+	        android:id="@+id/RemailtextView"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1" 
+            android:text="email_textview" />
+         
+        <EditText
+	        android:id="@+id/RemaileditText"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="2"
+	        android:inputType="textEmailAddress"
+	        android:text="username_edittext" />
+
+       
+    </LinearLayout>
+    <LinearLayout 
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"  
+         android:layout_marginLeft="100dp"
+          android:layout_marginRight="100dp" >
+		 <TextView
+	        android:id="@+id/RlastnametextView2"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="name_textview" 
+            android:layout_weight="1" />
+        <EditText
+	        android:id="@+id/RlastnameeditText2"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:inputType="textPersonName"
+	        android:text="name_textview"
+	        android:layout_weight="2" />
+        </LinearLayout>
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+         android:layout_marginLeft="100dp"
+          android:layout_marginRight="100dp">
+        
+        <TextView
+	        android:id="@+id/RpasswordtextView"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="password_textview"
+            android:layout_weight="1" />
+         	
+        <EditText
+	        android:id="@+id/RpasswordeditText"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="2"
+	        android:inputType="textPassword"
+	        android:text="password_edittext" />
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp">
+        
+        <TextView
+            android:id="@+id/RgendertextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="rpassword_textview" 
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/RgendereditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="2"
+            android:inputType="textPassword"
+            android:text="password_edittext" />
+
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginLeft="100dp"
+	    android:layout_marginRight="100dp" >
+        
+        <AutoCompleteTextView
+            android:id="@+id/RstatetextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="gender_textview" 
+            android:layout_weight="1"/>
+       
+    </LinearLayout>
+   
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp">
+		
+        <TextView
+          android:id="@+id/RbdatetextView"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="bdate_textview"
+            android:layout_weight="1" />
+         <EditText
+        android:id="@+id/RdateeditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:inputType="date" 
+        android:text="date_edittext"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Rregbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="register_textview"
+        
+         />
+    
+</LinearLayout>
+</ScrollView>
